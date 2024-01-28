@@ -20,6 +20,7 @@
         img {
             border-radius: 100px;
             border: 5px solid var(--white);
+            margin-bottom: 15px;
         }
     }
 
@@ -34,7 +35,11 @@
             ul {
                 li {
                     a {
-                        width: 50px;
+                        width: 250px;
+
+                        img {
+                            margin-right: 10px;
+                        }
                     }
                 }
             }
@@ -86,30 +91,17 @@
     }
 
     @media(max-width: 750px) {
-        aside {
-            nav {
-                ul {
-                    flex-direction: column;
-                    gap: 15px;
 
-                    li {
+        aside nav ul,
+        section {
+            flex-direction: column;
+            gap: 15px;
+        }
 
-                        &,
-                        a {
-                            width: 100%;
-                        }
-                    }
-                }
-            }
-
-            section {
-                flex-direction: column;
-                gap: 15px;
-
-                figure {
-                    width: 100%;
-                }
-            }
+        aside nav ul li,
+        aside nav ul li a,
+        section figure {
+            width: 100%;
         }
     }
 }
