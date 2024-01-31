@@ -6,6 +6,7 @@
     padding: 10px 30px;
     display: flex;
     flex-direction: column;
+    background-color: var(--black-010);
 
     header,
     h3,
@@ -25,7 +26,7 @@
         font-size: 22px;
         padding: 0;
         margin: 0;
-        color: var(--black-010);
+        color: var(--white);
     }
 
     button {
@@ -37,7 +38,7 @@
 
     h3 {
         font-size: 18px;
-        color: var(--black-010);
+        color: var(--white);
     }
 
     article {
@@ -45,12 +46,12 @@
 
         p {
             font-size: 16px;
+            color: var(--white);
         }
     }
 
     nav {
         display: flex;
     }
-
 
 }

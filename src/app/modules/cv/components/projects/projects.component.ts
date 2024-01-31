@@ -20,7 +20,7 @@ export class ProjectsComponent {
       title: 'Github Repository',
       width: '100',
       height: '80',
-      description: 'Github repository where you can find my portifolio projects and source code of the another projects',
+      description: '<p>Github repository where you can find my portifolio projects and source code of the another projects</p>',
       links: [
         {
           name: 'Github',
@@ -34,11 +34,25 @@ export class ProjectsComponent {
       title: 'To do list portifolio',
       width: '100',
       height: '80',
-      description: 'one of my most recently projects, i made when i was learning angular. Further i will create a back-end using asp.net to save task in a database',
+      description: '<p>one of my most recently projects, i made when i was learning angular. Further i will create a back-end using asp.net to save task in a database</p>',
       links: [
         {
           name: 'To-do list',
-          href: 'https://gabrielninow.github.io/Todo-List/browser/',
+          href: 'https://gabrielninow.github.io/to-do-list/',
+        }
+      ]
+    },
+    {
+      src: 'assets/img/projects/login.svg',
+      alt: 'login page portfolio',
+      title: 'login page portfolio',
+      width: '80',
+      height: '80',
+      description: '<p>basic login page i made using angular to improve my scss skills</p>',
+      links: [
+        {
+          name: 'Login Page',
+          href: 'https://gabrielninow.github.io/login-page/',
         }
       ]
     },
@@ -48,11 +62,11 @@ export class ProjectsComponent {
       title: 'Acme website',
       width: '100',
       height: '51',
-      description: 'one of my older projects, i did when i was in vocational school, and remade recently, with my actual skills using only HTML. CSS, Javascript and Bootstrap',
+      description: '<p>one of my older projects, i did when i was in vocational school, and remade recently, with my actual skills using only HTML. CSS, Javascript and Bootstrap</p>',
       links: [
         {
           name: 'Acme Website',
-          href: 'https://gabrielninow.github.io/ACME-Website/',
+          href: 'https://gabrielninow.github.io/acme-website/',
         }
       ]
     }
